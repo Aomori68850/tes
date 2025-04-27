@@ -1,0 +1,290 @@
+@media screen and (max-width: 768px) {
+            
+            *, html {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: #008E61;
+            height: 100vh;
+        }
+
+        /* navbar */
+
+        nav {
+            background-color: rgba(255, 255, 255, 0.2); /* Needed for backdrop-filter to work */
+            backdrop-filter: blur(10px);
+            
+        }
+        
+        .Menu {
+            display: block;
+            font-size: 1.5em;
+            margin: 5%;
+            cursor: pointer;
+        }
+
+        .listMenu {
+            cursor: pointer;
+            display: none;
+            width: 30%;
+            height: 95%;
+            background-color: blue;
+            color: white;
+            flex-direction: column;
+            position: absolute;
+            top: 50px;
+            left: 0;
+        }
+
+        .listMenu li {
+            text-align: center;
+            padding: 15px 0 0 0;
+        }
+
+        .hrefList {
+            text-decoration: none;
+            color: var(--colorText2);
+            font-size: 1.1em;
+        }
+
+        .hrefList:hover {
+            color: gray;
+            transition: .3s ease-in-out;
+            transition-delay: .3s;
+        }
+        
+        .logo2 {
+            justify-content: center;
+            align-self: center;
+            width: 50px;
+            height: 50px;
+            margin-top: 15%;
+        }
+
+        .navbar {
+            display: none;
+        }
+
+        nav span {
+            margin: 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        nav span:hover {
+            color: #006F0D;
+            transition: 0.3s;
+        }
+        
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section div {
+            
+            
+            animation: fadeIn 2s ease;
+        }
+        
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .picture {
+            display: block;
+            height: 170px;
+            width: 300px;
+        }
+
+        .titleName {
+            font-size: 2em;
+            margin: 3%;
+        }
+
+        .describe {
+            font-size: 1em;
+        }
+
+        .mainPicture {
+            display: none;
+        }
+
+
+        footer {
+            background-color: aquamarine;
+            position: absolute;
+            bottom: 0;
+        }
+}
+
+
+
+
+
+
+ *, html {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #D6FFAD;
+            color: #008E61;
+            height: 100vh;
+        }
+
+        /* navbar */
+
+        nav {
+            background-color: rgba(255, 255, 255, 0.2); /* Needed for backdrop-filter to work */
+            backdrop-filter: blur(10px);
+            
+        }
+        
+        .menu {
+            display: none;
+        }
+        
+        .navbar {
+            position: absolute;
+            right: 7%;
+            top: 6%;
+        }
+
+        nav span {
+            margin: 20px;
+            font-size: 2em;
+            cursor: pointer;
+        }
+
+        nav span:hover {
+            color: #006F0D;
+            transition: 0.3s;
+        }
+
+        
+        
+        section div {
+            display: none;
+            position: relative;
+            top: 40%;
+            left: 5%;
+            animation: fadeIn 2s ease;
+        }
+        
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .picture {
+            display: none;
+        }
+
+        .titleName {
+            font-size: 4em;
+        }
+
+        .describe {
+            font-size: 2em;
+        }
+
+        .mainPicture {
+            position: absolute;
+            top: 50%;
+            right: 20%;
+            height: 50px;
+            width: 50px;
+        }
+
+
+        footer {
+            background-color: aquamarine;
+            position: absolute;
+            bottom: 0;
+        }
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <aside class="asideB">
+    <div class="IMGB">
+        <img src="/images/hiasan dinding rey.png" class="mainPictureB" />
+    </div>
+</aside>
+
+    <section>
+        <div class="IMG">
+            <img src="/images/hiasan dinding rey.png" class="mainPicture" />
+        </div>
+            
+    </section> -->
+
+    <!-- footer for android -->
+
+    <!-- <footer class="footerB">
+        <div>
+            <p>Contact :</p>
+            <span class="kontakB">Email : <a href="cretorystudio@gmail.com" class="aContactB" >cretorystudio@gmail.com</a></span>
+            <span>|</span>
+            <span class="kontakB">Admin : <a href="https://wa.me/+6287765135589" class="aContactB" >+6287769135589</a></span>
+            <span>|</span>
+            <span class="kontakB">Instagram : <a href="https://cretorystudio" class="aContactB" >@cretorystudio</a></span>
+
+            </div>
+    </footer>
+
+
+    <footer>
+        <div>
+            <p>Contact :</p>
+            <span class="kontak">Email : <a href="cretorystudio@gmail.com" class="aContact" >cretorystudio@gmail.com</a></span>
+            <span class="kontak">Admin : <a href="https://wa.me/+6287765135589" class="aContact" >+6287769135589</a></span>
+            <span class="kontak">Instagram : <a href="https://cretorystudio" class="aContact" >@cretorystudio</a></span>
+
+            </div>
+    </footer> -->
